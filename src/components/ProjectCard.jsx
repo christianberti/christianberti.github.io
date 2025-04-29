@@ -19,7 +19,7 @@ const ProjectCard = ({ title, subtitle, description, image, techs, demoLink, rep
         ))}
       </div>
       <hr className="border-sky-800 w-[98%] mt-2" />
-      <div className="w-[85%] flex justify-between mt-3">
+      <div className="w-[90%] md:w-[85%] flex justify-between gap-3 my-3">
         <a href={demoLink} target="_blank" className="bg-blue-600 text-white px-3 py-2 rounded hover:bg-blue-800">Ver Demo</a>
         <a href={repoLink} target="_blank" className="flex items-center gap-2 bg-gray-700 text-white px-3 py-2 rounded hover:bg-gray-800">
           <FaGithub />
