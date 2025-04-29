@@ -11,7 +11,7 @@ const ProjectCard = ({ title, subtitle, description, image, techs, demoLink, rep
       className="relative h-[380px] w-[300px] flex flex-col justify-center items-center bg-neutral-950 p-3 rounded-lg hover:ring-2 hover:ring-blue-900 transition border-sky-400"
     >
       <h3 className="text-xl text-blue-400 font-semibold">{title}</h3>
-      <img src={image} alt={title} className="h-[200px] w-[250px] rounded-md mt-2" />
+      <img src={image} alt={title} loading="lazy" className="h-[200px] w-[250px] rounded-md mt-2" />
       <p className="text-blue-400 text-sm mt-2">{subtitle}</p>
       <div className="w-[85%] flex flex-wrap gap-2 mt-2 mb-1 justify-start">
         {techs.map((tech, index) => (
