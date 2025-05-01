@@ -18,5 +18,14 @@ export const projects = [
     demoLink: "https://christianberti.github.io/MundoDjango",
     repoLink: "https://github.com/christianberti/MundoDjango"
   },
+  {
+    title: "Subscriptions Tracker",
+    subtitle: "App para seguir tus suscripciones",
+    description: "Subscriptions Tracker es un proyecto de práctica desarrollado con React para gestionar listas dinámicas. Permite agregar, visualizar y organizar suscripciones de servicios de manera sencilla, reforzando conceptos de estado, renderizado condicional y manipulación de datos.",
+    image: "./images/SubscriptionTracker.png",
+    techs: ["React", "CSS"],
+    demoLink: "https://christianberti.github.io/subscriptions-tracker",
+    repoLink: "https://github.com/christianberti/subscriptions-tracker"
+  },
   // Agrega más proyectos aquí...
 ];
