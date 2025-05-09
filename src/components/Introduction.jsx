@@ -14,7 +14,7 @@ const Introduction = () => {
       {/* Botones de acción */}
       <div className="flex flex-col md:flex-row gap-3 animate-fadeIn2">
         <a
-          href="/tu_cv.pdf"
+          href="./CV-ChristianBerti-DesarrolladorWeb2025.pdf"
           download
           className="text-md md:text-lg px-6 py-3 bg-blue-700 text-white rounded-lg shadow-md hover:bg-blue-900 transition w-full md:w-auto text-center mb-0"
         >

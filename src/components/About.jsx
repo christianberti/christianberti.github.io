@@ -9,7 +9,7 @@ const About = () => {
         </h2>
         <p className="mb-4 md:text-lg text-m leading-relaxed">
           Soy <span className="font-semibold">desarrollador web frontend</span> principalmente autodidacta, y actualmente
-          estudiando la carrera de <span className="font-semibold">Licenciatura en Sistemas</span> en la
+          estudiando la carrera de <span className="font-semibold">"Analista Programador Universitario"</span> en la
           Universidad Nacional de La Plata.
         </p>
         <p className="mb-4 md:text-lg text-m leading-relaxed">
