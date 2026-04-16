@@ -26,7 +26,7 @@ export const projects = [
     image: "/images/MovieVerse.png",
     techs: ["React", "React Router", "REST API", "Context API"],
     demoLink: "https://movie-verse-teal.vercel.app/",
-    repoLink: "hhttps://github.com/christianberti/movie-verse"
+    repoLink: "https://github.com/christianberti/movie-verse"
   },
   // Agrega más proyectos acá...
 ];

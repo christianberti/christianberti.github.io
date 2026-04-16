@@ -90,3 +90,10 @@ h1, h2, h3 {
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid color-mix(in oklch, var(--color-brand-border) 40%, transparent);
 }
+
+.glass-effect-mobile {
+  background: color-mix(in oklch, var(--color-brand-surface) 95%, transparent);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--color-brand-border);
+}

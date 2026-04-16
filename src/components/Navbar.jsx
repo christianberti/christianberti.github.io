@@ -5,7 +5,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className={`fixed top-0 left-0 w-full px-0 md:px-0 z-50 transition-all duration-300 ${menuOpen ? "glass-effect border-b border-white/10" : "bg-transparent"}`}>
+    <nav className={`fixed top-0 left-0 w-full px-0 md:px-0 z-50 transition-all duration-300 ${menuOpen ? "glass-effect-mobile border-b border-white/10" : "bg-transparent"}`}>
       <div className={`absolute inset-0 transition-opacity duration-500 ${menuOpen ? 'opacity-100' : 'opacity-0'} md:opacity-100 md:glass-effect border-b border-white/5`}></div>
 
       <div className="relative max-w-7xl mx-auto px-6 md:px-12 py-5 flex justify-between items-center">
@@ -45,7 +45,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile menu */}
-      <div className={`md:hidden absolute top-full left-0 w-full glass-effect border-b border-white/10 transition-all duration-300 overflow-hidden ${menuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}`}>
+      <div className={`md:hidden absolute top-full left-0 w-full glass-effect-mobile border-b border-white/10 transition-all duration-300 overflow-hidden ${menuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}`}>
         <ul className="flex flex-col items-center py-4 space-y-2 font-semibold text-sm">
           <li className="w-full text-center"><a href="#introduction" className="block py-3 px-6 hover:text-white" style={{ color: 'var(--color-brand-text-dim)' }} onClick={() => setMenuOpen(false)}>Inicio</a></li>
           <li className="w-full text-center"><a href="#projects" className="block py-3 px-6 hover:text-white" style={{ color: 'var(--color-brand-text-dim)' }} onClick={() => setMenuOpen(false)}>Trabajos</a></li>
