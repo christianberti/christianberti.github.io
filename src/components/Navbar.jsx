@@ -7,15 +7,15 @@ const Navbar = () => {
   return (
     <nav className={`fixed top-0 left-0 w-full px-0 md:px-0 z-50 transition-all duration-300 ${menuOpen ? "glass-effect border-b border-white/10" : "bg-transparent"}`}>
       <div className={`absolute inset-0 transition-opacity duration-500 ${menuOpen ? 'opacity-100' : 'opacity-0'} md:opacity-100 md:glass-effect border-b border-white/5`}></div>
-      
+
       <div className="relative max-w-7xl mx-auto px-6 md:px-12 py-5 flex justify-between items-center">
         <div className="flex items-center space-x-3 group cursor-pointer">
           <img src={logoPersonal} alt="Logo personal" className="w-8 h-8 group-hover:scale-110 transition-transform duration-300" />
           <h1 className="text-lg font-bold tracking-tight" style={{ color: 'var(--color-brand-text)' }}>Christian Berti</h1>
         </div>
 
-        <button 
-          className="md:hidden flex flex-col justify-center items-center w-8 h-8 space-y-1.5 focus:outline-none z-50" 
+        <button
+          className="md:hidden flex flex-col justify-center items-center w-8 h-8 space-y-1.5 focus:outline-none z-50"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label={menuOpen ? "Cerrar menú de navegación" : "Abrir menú de navegación"}
           aria-expanded={menuOpen}
@@ -24,12 +24,12 @@ const Navbar = () => {
           <span className={`block w-6 h-0.5 bg-white transition-opacity duration-300 ${menuOpen ? "opacity-0" : ""}`}></span>
           <span className={`block w-6 h-0.5 bg-white transition-transform duration-300 ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`}></span>
         </button>
-        
+
         {/* Links de navegación */}
         <ul className="hidden md:flex space-x-8 font-semibold text-sm tracking-wide">
           {[
             { href: "#introduction", text: "Inicio" },
-            { href: "#projects", text: "Trabajos" },
+            { href: "#projects", text: "Proyectos" },
             { href: "#skills", text: "Tecnologías" },
             { href: "#about", text: "Sobre Mí" },
             { href: "#contact", text: "Contacto" }

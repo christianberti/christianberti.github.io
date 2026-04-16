@@ -12,7 +12,7 @@ const About = () => {
         <div className="space-y-8 text-lg leading-relaxed font-medium" style={{ color: 'var(--color-brand-text-dim)' }}>
           <p>
             Soy <span className="font-bold text-white">desarrollador web frontend</span> principalmente autodidacta, y actualmente
-            estudiando la carrera de <span className="italic text-white">"Analista Programador Universitario"</span> en la
+            estudiando la <span className="italic text-white">Licenciatura en Informática</span> en la
             Universidad Nacional de La Plata.
           </p>
 
